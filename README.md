@@ -13,6 +13,6 @@ Node.js app using [Express](http://expressjs.com/) framework for grabbing direct
 
 Online example of app on Heroku - [Twitch HLS Tool](https://tt-m3u8.herokuapp.com/)
 
---Credits : This repo is forked from • 
+--Credits : This repo is forked from (author :
 Maintained by python911@protonmail.com
 
