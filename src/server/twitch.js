@@ -1,7 +1,7 @@
 "use strict";
 var agent = require("superagent");
 var check_live_stream =  {
-	"base": "https://api.twitch.tv/kraken/streams/",
+	"base": "https://api.twitch.tv/helix/search/",
 	"limit": 25
 }
 var limit_strea
