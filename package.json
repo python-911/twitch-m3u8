@@ -1,7 +1,7 @@
 {
-  "name": "twitch-m3u8-link",
-  "version": "0.1.0",
-  "description": "Webtool for retrieving stream direct link",
+  "name": "twitch-m3u8",
+  "version": "1.0",
+  "description": "Get twitch.tv live streaming m3u8 links",
   "engines": {
     "node": "6.11.1"
   },
@@ -11,7 +11,9 @@
   },
   "keywords": [
     "nodejs",
+    "twitch.tv",
     "heroku"
+    
   ],
   "license": "MIT",
   "dependencies": {
