@@ -27,14 +27,14 @@ var access_token = {
 		return this.base + this.channel + this.params;
 	}
 };
-var client_id = "ta24w6i5cmq57c7mszjirohc2ub9ge";
+var client_id = "ycc5lk8xpin54ydfu80x099606azy0";
 var stream_list = [];
 var response = null;
 
 function getPopularChannelList(resp, limit) {
 	agent
 		.get(check_live_stream.base + "?limit=" + (check_live_stream.limit + limit))
-		.set("user-agent", "Mozilla/5.0 (Windows NT 6.3; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/57.0.2987.133 Safari/537.36")
+		.set("user-agent", "Mozilla/5.0 (Windows NT 6.3; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/51.0.2987.133 Safari/537.36")
 		.set("client-id", client_id)
 		.end(function(err, res) {
 			if(err || !res.ok) {
