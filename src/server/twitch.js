@@ -3,7 +3,6 @@ var agent = require("superagent");
 var check_live_stream =  {
 	"base": "https://api.twitch.tv/helix/search/channels?",
         "client-id": "ycc5lk8xpin54ydfu80x099606azy0",
-        "Authorization": Bearer 2gbdx6oar67tqtcmt49t3wpcgycthx",
 	"limit": 25
 }
 var limit_strea
