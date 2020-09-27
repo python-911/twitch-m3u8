@@ -1,7 +1,7 @@
 "use strict";
 var agent = require("superagent");
 var check_live_stream =  {
-	"base": "https://api.twitch.tv/helix/search/channels?",
+	"base": "https://api.twitch.tv/helix/search/channels?query=",
         "client-id": "ycc5lk8xpin54ydfu80x099606azy0",
 	"limit": 25
 }
